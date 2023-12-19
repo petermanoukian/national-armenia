@@ -1,0 +1,61 @@
+<template>
+
+    <section class="post_section">
+		<div class="container">
+			<div class="row post_section_inner">
+
+				<Left2 />
+				<Right2 />
+			</div>
+		</div>
+	</section>
+
+</template>
+
+
+<script>
+
+import router from '../app2.js'
+
+
+import Vue from 'vue';
+import Router from 'vue-router';
+import Left2 from './Left2.vue';
+import Right2 from './Right2.vue';
+
+
+export default {
+
+	components: { Left2 , Right2 },
+
+	data() {
+      return {
+	  
+	  }
+       
+    },
+	created: function()
+	{
+		const vr1 = this.$router;
+		
+		
+
+	},
+	 mounted: function()
+	{
+		const vr2 = this.$router;
+
+	},
+	
+	methods: 
+	{
+
+		
+	
+	
+	},
+	
+
+
+}
+</script>
